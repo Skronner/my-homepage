@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-height {
+  /* height: calc(100vh - 54px); */
+  height: 100vh;
+  padding-top: 54px;
+}
